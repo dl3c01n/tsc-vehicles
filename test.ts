@@ -44,7 +44,7 @@ class Moto extends Vehicle {
         console.log(`La marque est : ${this.brand}`);
         console.log(`Le modèle est : ${this.model}`);
         console.log(`La plaque est : ${this.plate}`);
-        console.log("Je suis une " + this.className.toLowerCase() + " qui roule avec : " + this.carburant);
+        console.log("Je suis une " + this.className.toLowerCase() + " qui roule avec : " + this.cc + " cc");
     }
 }
 
@@ -62,7 +62,7 @@ class Boat extends Vehicle {
         console.log(`La marque est : ${this.brand}`);
         console.log(`Le modèle est : ${this.model}`);
         console.log(`La plaque est : ${this.plate}`);
-        console.log("Je suis une " + this.className.toLowerCase() + " qui roule avec : " + this.carburant);
+        console.log("Je suis une " + this.className.toLowerCase() + " qui roule avec : " + this.type);
     }
 }
 

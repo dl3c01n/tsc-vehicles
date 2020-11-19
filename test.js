@@ -48,7 +48,7 @@ var Moto = /** @class */ (function (_super) {
             console.log("La marque est : " + _this.brand);
             console.log("Le mod\u00E8le est : " + _this.model);
             console.log("La plaque est : " + _this.plate);
-            console.log("Je suis une " + _this.className.toLowerCase() + " qui roule avec : " + _this.carburant);
+            console.log("Je suis une " + _this.className.toLowerCase() + " qui roule avec : " + _this.cc + " cc");
         };
         _this.cc = cc;
         return _this;
@@ -65,7 +65,7 @@ var Boat = /** @class */ (function (_super) {
             console.log("La marque est : " + _this.brand);
             console.log("Le mod\u00E8le est : " + _this.model);
             console.log("La plaque est : " + _this.plate);
-            console.log("Je suis une " + _this.className.toLowerCase() + " qui roule avec : " + _this.carburant);
+            console.log("Je suis une " + _this.className.toLowerCase() + " qui roule avec : " + _this.type);
         };
         _this.type = type;
         return _this;
